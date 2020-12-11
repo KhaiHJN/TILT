@@ -44,13 +44,13 @@ These steps will create a Flask webserver and run it on docker, but will only ma
 
 ## Developers 
 
-+ Nguyen. Khai H. J. [@KhaiHJN](https://github.com/KhaiHJN)
++ Khai H. J. Nguyen [@KhaiHJN](https://github.com/KhaiHJN)
 
-+ Nuland. Arian [@Nuskard](https://github.com/Nuskard)
++ Arian Nuland [@Nuskard](https://github.com/Nuskard)
 
-+ Opheim-Halsne. Sven [@svhalsne](https://github.com/svhalsne)
++ Sven Opheim-Halsne [@svhalsne](https://github.com/svhalsne)
 
-+ Perez. Andreas [@motzic](https://github.com/motzic)
++ Andreas Perez [@motzic](https://github.com/motzic)
 
-+ Høiland. Christer [@ChristerHoei](https://github.com/ChristerHoei)
++ Christer Høiland [@ChristerHoei](https://github.com/ChristerHoei)
 
