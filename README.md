@@ -4,11 +4,11 @@ COVID-19 project using Web Scraping and REST API to get current informasjon (in 
 
 ## Content
 
-1. [Technologies](https://github.com/KhaiHJN/IS-308#technologies)
-2. [Intention](https://github.com/KhaiHJN/IS-308#intention)
-3. [License](https://github.com/KhaiHJN/IS-308#license)
-4. [Installing and running](https://github.com/KhaiHJN/IS-308#installing-and-running)
-5. [Developers](https://github.com/KhaiHJN/IS-308#developers)
+1. [Technologies](https://github.com/KhaiHJN/TILT#technologies)
+2. [Intention](https://github.com/KhaiHJN/TILT#intention)
+3. [License](https://github.com/KhaiHJN/TILT#license)
+4. [Installing and running](https://github.com/KhaiHJN/TILT#installing-and-running)
+5. [Developers](https://github.com/KhaiHJN/TILT#developers)
 
 
 ## Technologies
