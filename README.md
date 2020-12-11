@@ -40,7 +40,7 @@ Step-by step:
 
 These steps will create a Flask webserver and run it on docker, but will only make it accessible from within the local network. Opening Port Forwarding at port :5000 means it can be accessed from outside network. Check with your internet provider how to do this. 
 
-**DISCLAIMER:** Port forwarding and remote access is done at your own risk. We take no responsibility.
+**DISCLAIMER:** Port forwarding is done at your own risk. We take no responsibility.
 
 ## Developers 
 
