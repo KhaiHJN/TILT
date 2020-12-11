@@ -9,7 +9,7 @@ COVID-19 project using Web Scraping and REST API to get current informasjon (in 
 3. [License](https://github.com/KhaiHJN/IS-308#license)
 4. [Installing and running](https://github.com/KhaiHJN/IS-308#installing-and-running)
 5. [Developers](https://github.com/KhaiHJN/IS-308#developers)
-6. [Acknowledgements](https://github.com/KhaiHJN/IS-308#acknowledgements)
+
 
 ## Technologies
 + [Python 3.6 or higher](https://www.python.org/downloads/)
@@ -22,6 +22,8 @@ The purpose of this project is to provide an solution for monitoring the status 
 + [COVID-19 statistics](https://www.worldometers.info/coronavirus/)
 
 This is to help the traveler determine what is the situation at the destination before traveling. 
+
+## License
 
 ## Installing and running
 This webpage is meant to be run on docker, but also possible locally on your pc. 
