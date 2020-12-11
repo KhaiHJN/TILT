@@ -17,13 +17,8 @@ COVID-19 project using Web Scraping and REST API to get current informasjon (in 
 
 ## Intention
 
-The purpose of this project is to provide an solution for monitoring the status at the destination COVID-19 rules and situation, or whatever the user want to monitor the current situation. Travel Informer, Little Travele (TILT) is a product that uses [Raspberry Pi](https://www.raspberrypi.org/),
-[Sense HAT](https://www.raspberrypi.org/products/sense-hat/),
-[Flask](http://flask.pocoo.org/) and 
-[SQLite](https://www.sqlite.org/index.html), to deliver data such as:
-+ [Temperature](https://en.wikipedia.org/wiki/Temperature)
-+ [Humidity](https://en.wikipedia.org/wiki/Humidity)
-+ [Air pressure](https://en.wikipedia.org/wiki/Atmospheric_pressure)
-+ Real time pictures  
+The purpose of this project is to provide an solution for monitoring the status at the destination COVID-19 rules and situation, or whatever the user want to monitor the current situation. Travel Informer, Little Travele (TILT) is a website that uses [Flask](http://flask.pocoo.org/) to run with [Docker](https://www.docker.com/get-started) for hosting. We are using it to deliver data such as:
++ [Entry rules (From regjeringen.no)](https://www.regjeringen.no/no/tema/Koronasituasjonen/id2692388/)
++ [COVID-19 statistics](https://en.wikipedia.org/wiki/Humidity)
 
-This to help the user determine if there is something wrong at the location where the SenseHAT is deployed, and if maintenance needs to be performed. 
+This is to help the traveler determine what is the situation at the destination before traveling. 
