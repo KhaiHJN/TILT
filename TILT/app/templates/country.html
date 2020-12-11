@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Covid-19</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style/bootstrap.css')}}">
+</head>
+
+
+
+<body>
+    <div class="div">
+        <h3 class="h3">Covid-19 tilfeller i {{land}}:</h2>
+            <p>{{all_detail | safe}}</p>
+            <p>Smittede per 100.000 mennesker: {{perDetails | safe}}</p>
+
+        <h2 class="h2">Innreise regler til: {{land}}</h1>
+        <h5 class="h5">*Hentet fra regjeringen sin nettside: regjeringen.no*</h3>
+        <p>{{result | safe}}</p>
+        <br>
+
+        <p>{{msg | safe}}</p>
+
+        <script>
+            function goBack() {
+              window.history.back()
+            }
+        </script>
+          
+        <button class="button2" onclick="goBack()">Gå tilbake</button>        
+
+    </div>
+    
+
+
+</body>
+
+</html>

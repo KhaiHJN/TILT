@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Covid-19</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style/bootstrap.css')}}">
+</head>
+
+<body class="body">
+  <div class="div">
+    <h3 class="h3">Covid-19 tilfeller i verden</h2>
+    <p>{{all_detail | safe}}</p>
+    <h2 class="h2">Sjekk innreiseregler før avreise</h1>
+      <br>
+      <h5 class="h5">*Velg land fra nedtrekksmenyen*</h5>
+      <form action="" method="POST">
+      <label>Destinasjon(Land)</label>
+      <select class="selectList" name="land" method="GET" action="/">
+          <option value="{{colours[0]}}" selected>{{colours[0]}}</option>
+          {% for colour in colours[1:] %}
+            <option value="{{colour}}">{{colour}}</option>
+          {% endfor %}
+        </select>
+      <button class="button1" type="submit" name="submit">Sjekk</button>
+    </form>
+    <h5 class="h5">eller skriv inn ønsket land:</h5>
+    <form action="" method="POST">
+      <label>Destinasjon(Land)</label>
+      <input type="text" name="land" placeholder="Skriv inn ditt destinasjonssted">
+      <button class="button1" type="submit" name="submit">Sjekk</button>
+    </form>
+
+
+    <p>{{msg | safe}}</p>
+  </div>
+</body>
+</html>
