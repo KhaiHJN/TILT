@@ -32,9 +32,9 @@ Step-by step:
 
 1. ```git clone https://github.com/KhaiHJN/IS-308 ```
 
-2. ```cd IS-308``` and run ```docker build -t reise:latest .``` This will install Flask, Request and package the python files, making imports more trivial.
+2. ```cd IS-308``` and run ```docker build -t TILT:latest .``` This will install Flask, Request and package the python files, making imports more trivial.
 
-3. Then run ``` docker run -d -p 5000:5000 reise``` This starts the webserver.
+3. Then run ``` docker run -d -p 5000:5000 TILT``` This starts the webserver.
 
 4. Go to ``` 0.0.0.0:5000 ``` on your browser to see the the webpage.
 
