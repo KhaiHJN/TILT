@@ -26,7 +26,7 @@ This is to help the traveler determine what is the situation at the destination 
 ## License
 
 ## Installing and running
-This webpage is meant to be run on docker, but also possible locally on your pc. 
+This webpage is meant to be run on docker.
 
 Step-by step:
 
