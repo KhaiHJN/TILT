@@ -30,9 +30,9 @@ This webpage is meant to be run on docker.
 
 Step-by step:
 
-1. ```git clone https://github.com/KhaiHJN/IS-308 ```
+1. ```git clone https://github.com/KhaiHJN/TILT ```
 
-2. ```cd IS-308``` and run ```docker build -t TILT:latest .``` This will install Flask, Request and package the python files, making imports more trivial.
+2. ```cd TILT``` and run ```docker build -t TILT:latest .``` This will install Flask, Request and package the python files, making imports more trivial.
 
 3. Then run ``` docker run -d -p 5000:5000 TILT``` This starts the webserver.
 
