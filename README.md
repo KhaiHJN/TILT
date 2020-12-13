@@ -18,8 +18,9 @@ COVID-19 project using Web Scraping and REST API to get current informasjon (in 
 ## Intention
 
 The purpose of this project is to provide a solution for monitoring the status of a destination COVID-19 restrictions and situation, or whatever the user want to monitor the current situation. Travel Informer, Little Traveler (TILT) is a website that uses [Flask](http://flask.pocoo.org/) to run with [Docker](https://www.docker.com/get-started) for hosting. We are using it to deliver data such as:
-+ [Entry rules (Regjeringen.no)](https://www.regjeringen.no/no/tema/Koronasituasjonen/id2692388/)
-+ [COVID-19 statistics (Worldometers.info)](https://www.worldometers.info/coronavirus/)
++ [Regjeringen](https://www.regjeringen.no/no/tema/Koronasituasjonen/id2692388/)
++ [Worldometers](https://www.worldometers.info/coronavirus/)
++ [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en)
 
 This is to help the traveler determine what the situation is like at a destination before traveling. 
 
